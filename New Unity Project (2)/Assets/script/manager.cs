@@ -1,8 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-
 using UnityEngine.UI;
 
 
@@ -18,6 +16,6 @@ public class manager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        myText.text = deletingperacci.score.ToString();
+        myText.text = ("score = "+deletingperacci.score.ToString());
     }
 }
