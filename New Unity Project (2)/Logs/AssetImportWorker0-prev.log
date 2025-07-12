@@ -1,0 +1,318 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.24f1 (709dddfb713f) revision 7380445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 32581 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2022.1.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/aamyr/Desktop/unity/New Unity Project (2)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57668
+Successfully changed project path to: C:/Users/aamyr/Desktop/unity/New Unity Project (2)
+C:/Users/aamyr/Desktop/unity/New Unity Project (2)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 46.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.24f1 (709dddfb713f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/aamyr/Desktop/unity/New Unity Project (2)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6900 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16337 MB
+    Driver:   32.0.21013.1000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2022.1.24f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2022.1.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2022.1.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2022.1.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002572 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.597 seconds
+Domain Reload Profiling:
+	ReloadAssembly (597ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (430ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (111ms)
+				TypeCache.Initialize (111ms)
+					TypeCache.ScanAssembly (110ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (244ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (139ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005037 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Domain Reload Profiling:
+	ReloadAssembly (888ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (177ms)
+				TypeCache.Initialize (176ms)
+					TypeCache.ScanAssembly (173ms)
+				ResolveRequiredComponents (2ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (369ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (119ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (58.2 KB). Loaded Objects now: 2821.
+Memory consumption went from 377.5 MB to 377.4 MB.
+Total: 5.816500 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.088500 ms MarkObjects: 5.500000 ms  DeleteObjects: 0.074500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11050.758419 seconds.
+  path: Assets/Menu buttons/shop cart.jpg
+  artifactKey: Guid(be26774d9dd6a8c4c90e0c1eb8afc049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/shop cart.jpg using Guid(be26774d9dd6a8c4c90e0c1eb8afc049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49c0324843bb7126258f0511e1f7230') in 0.101963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.416293 seconds.
+  path: Assets/Menu buttons/shop cart.jpg
+  artifactKey: Guid(be26774d9dd6a8c4c90e0c1eb8afc049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/shop cart.jpg using Guid(be26774d9dd6a8c4c90e0c1eb8afc049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7c986ebc80cb7031c2e38a202e3b57') in 0.025732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 346.096065 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '643dbe22ecb75e7bba7c4df53f6b1cbf') in 0.011730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.665509 seconds.
+  path: Assets/Menu buttons/circle image.png
+  artifactKey: Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/circle image.png using Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551b6001a8d4414cc9d5f7a3e35ccca5') in 0.029745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 263.832539 seconds.
+  path: Assets/uh.unity
+  artifactKey: Guid(6e1e1b63f3219cd4f995152431cfa6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/uh.unity using Guid(6e1e1b63f3219cd4f995152431cfa6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e223f2af1a437c3eb9d0e358f9e3e94') in 0.014971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.319762 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(4df8d8941667fa9448fa7b7f21b36e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4df8d8941667fa9448fa7b7f21b36e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd08b914e3471370b89bfcd7501e2038e') in 0.012279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.639958 seconds.
+  path: Assets/Menu buttons/circle image.png
+  artifactKey: Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/circle image.png using Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc746d3bb88a4724c406e77bbed92559') in 0.020577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 559.428045 seconds.
+  path: Assets/script
+  artifactKey: Guid(db7b57c661cd1f84eb819398c2eff2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/script using Guid(db7b57c661cd1f84eb819398c2eff2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163231399f3d12a1e09664b06ccccdea') in 0.010914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.840836 seconds.
+  path: Assets/Menu buttons/circle image.png
+  artifactKey: Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/circle image.png using Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99e1db935bb84b74e213b9e91ae3f8d1') in 0.024360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 166.457324 seconds.
+  path: Assets/Menu buttons/circle image.png
+  artifactKey: Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/circle image.png using Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4576fa6a4f6799379f4fb82ff6a63ab') in 0.028299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.068276 seconds.
+  path: Assets/Menu buttons/circle image.png
+  artifactKey: Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/circle image.png using Guid(d0efd7b696b1e334c872aa88ad2c9216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76736c28058515f2ecb98ef6df491fb') in 0.020682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.334581 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(9a02902d7a703534f856150760d8fafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(9a02902d7a703534f856150760d8fafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51413f7844caa2e1244343aa72ea3b35') in 0.011377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.034632 seconds.
+  path: Assets/Menu buttons/DDkf8w-black-circle-clipart-file.png
+  artifactKey: Guid(759e9af470cbc344ea5ae2071f40b67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/DDkf8w-black-circle-clipart-file.png using Guid(759e9af470cbc344ea5ae2071f40b67b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3519227642c7f5f118155e5fba97874d') in 0.040124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 632.435017 seconds.
+  path: Assets/Menu buttons/cart-icon-transparent-18.jpg
+  artifactKey: Guid(1606eb9031cd0b840ae944c6aa90c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/cart-icon-transparent-18.jpg using Guid(1606eb9031cd0b840ae944c6aa90c3f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242182fbf552bd0972dd7f2ab28eb21a') in 0.035032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 349.897295 seconds.
+  path: Assets/Menu buttons/vecteezy_phone-icon-telephone-icon-symbol-vector-illustration_.eps
+  artifactKey: Guid(89df5c0748f010a4ea770b0864681345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/vecteezy_phone-icon-telephone-icon-symbol-vector-illustration_.eps using Guid(89df5c0748f010a4ea770b0864681345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916a850f6501afc6d38b899510ab3741') in 0.015213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.866853 seconds.
+  path: Assets/Menu buttons/vecteezy_phone-icon-telephone-icon-symbol-vector-illustration_.jpg
+  artifactKey: Guid(ba710b2d62234bc47b57076e332fc783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/vecteezy_phone-icon-telephone-icon-symbol-vector-illustration_.jpg using Guid(ba710b2d62234bc47b57076e332fc783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37aaa627c01e33194bb8bcba466e9c9b') in 0.130666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 332.599981 seconds.
+  path: Assets/Menu buttons/—Pngtree—three-dimensional white phone icon free_6020287.png
+  artifactKey: Guid(3202987f93247464e88b088848609e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/—Pngtree—three-dimensional white phone icon free_6020287.png using Guid(3202987f93247464e88b088848609e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1839d5f879160ddaa3d72febd1745b') in 0.073533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 234.331953 seconds.
+  path: Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png
+  artifactKey: Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png using Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bec0ea888bca356231f1b7a63e787eb') in 0.189653 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 138.387192 seconds.
+  path: Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png
+  artifactKey: Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png using Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38d80629457a5e565fbb9dcee7de59c') in 0.026185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.921024 seconds.
+  path: Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png
+  artifactKey: Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png using Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034bfd42c0257a1a051662fd99193482') in 0.018282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.948521 seconds.
+  path: Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png
+  artifactKey: Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png using Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0948dd9de2970ad5395075ae5ae1a4a') in 0.016677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.589054 seconds.
+  path: Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png
+  artifactKey: Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/—Pngtree—empty circle symbol_13140956.png using Guid(2781f6009fc5bfb42b87a46d5ca58231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4a8eb0cb2d3ac9c35dabc21f8fc6cd') in 0.017430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 423.014393 seconds.
+  path: Assets/Menu buttons/—Pngtree—settings icon_4419960.png
+  artifactKey: Guid(838f1f8c479a5014595aca1534bb45e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/—Pngtree—settings icon_4419960.png using Guid(838f1f8c479a5014595aca1534bb45e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e27e9050aeb7fccd67f68ec37f0a90a') in 0.156169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 214.634322 seconds.
+  path: Assets/Menu buttons/pngtree-minimalist-desktop-wallpaper-landscape-vector-illustration-moon-light-night-mountain-background-image_942586.jpg
+  artifactKey: Guid(4eb4964cc684d5b44bc98e4fca5cea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/pngtree-minimalist-desktop-wallpaper-landscape-vector-illustration-moon-light-night-mountain-background-image_942586.jpg using Guid(4eb4964cc684d5b44bc98e4fca5cea33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a26bb9fe758892cb8ce0b08cec015d1c') in 0.037193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.046806 seconds.
+  path: Assets/Menu buttons/d197f3d63e273b6f5c105412b799eae6.jpeg
+  artifactKey: Guid(3878c18e98b70ca4e960f828ebc04af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Menu buttons/d197f3d63e273b6f5c105412b799eae6.jpeg using Guid(3878c18e98b70ca4e960f828ebc04af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1601e7fb7987aa488bfd9ecb8a3e79bf') in 0.153462 seconds 
