@@ -39,13 +39,17 @@
      <Compile Include="Assets\script\deletingperacci.cs" />
      <Compile Include="Assets\script\SettingManager.cs" />
      <Compile Include="Assets\script\soundofwater.cs" />
+     <Compile Include="Assets\Scripts\Data.cs" />
      <Compile Include="Assets\script\UNUSED scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\script\UNUSED scripts\MenuManager.cs" />
      <Compile Include="Assets\script\UNUSED scripts\Powerup_SlowMotion.cs" />
+     <Compile Include="Assets\Scripts\Ghost.cs" />
+     <Compile Include="Assets\Scripts\Board.cs" />
      <Compile Include="Assets\script\AudioVolumeController.cs" />
      <Compile Include="Assets\script\ThemeManager.cs" />
      <Compile Include="Assets\script\GlobalAudioManager.cs" />
      <Compile Include="Assets\script\SceneLoader.cs" />
+     <Compile Include="Assets\Scripts\Tetromino.cs" />
      <Compile Include="Assets\script\MuteButtonController.cs" />
      <Compile Include="Assets\script\BackgroundMusic.cs" />
      <Compile Include="Assets\script\UNUSED scripts\NewBehaviourScript1.cs" />
@@ -54,21 +58,17 @@
      <Compile Include="Assets\script\nonverticalmove.cs" />
      <Compile Include="Assets\script\UNUSED scripts\recreate.cs" />
      <Compile Include="Assets\script\UNUSED scripts\text.cs" />
+     <Compile Include="Assets\Scripts\Piece.cs" />
      <Compile Include="Assets\script\UNUSED scripts\deleting.cs" />
      <Compile Include="Assets\script\manager.cs" />
      <Compile Include="Assets\script\DoubleScorePowerup.cs" />
      <Compile Include="Assets\script\WinManager.cs" />
      <Compile Include="Assets\script\soundmanager.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\script\LevelLoader.cs" />
      <Compile Include="Assets\script\BackgroundMusicManager.cs" />
      <Compile Include="Assets\script\randomdrop.cs" />
      <Compile Include="Assets\script\SplashScreen.cs" />
-     <Compile Include="Assets\Scripts\Tetromino.cs" />
-     <Compile Include="Assets\Scripts\Data.cs" />
-     <Compile Include="Assets\Scripts\Piece.cs" />
-     <Compile Include="Assets\Scripts\Ghost.cs" />
-     <Compile Include="Assets\Scripts\Board.cs" />
-     <Compile Include="Assets\Scripts\ScoreManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2022.1.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
