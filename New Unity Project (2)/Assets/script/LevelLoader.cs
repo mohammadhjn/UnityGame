@@ -10,6 +10,6 @@ public class LevelLoader : MonoBehaviour
         PlayerPrefs.SetInt("Level", level);
         PlayerPrefs.SetInt("TargetScore", score);
 
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 }
