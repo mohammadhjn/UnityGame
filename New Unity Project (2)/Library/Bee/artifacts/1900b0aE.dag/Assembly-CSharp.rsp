@@ -394,6 +394,12 @@
 "Assets/script/UNUSED scripts/recreate.cs"
 "Assets/script/UNUSED scripts/text.cs"
 "Assets/script/WinManager.cs"
+"Assets/Scripts/Board.cs"
+"Assets/Scripts/Data.cs"
+"Assets/Scripts/Ghost.cs"
+"Assets/Scripts/Piece.cs"
+"Assets/Scripts/ScoreManager.cs"
+"Assets/Scripts/Tetromino.cs"
 -langversion:9.0
 
 /deterministic
