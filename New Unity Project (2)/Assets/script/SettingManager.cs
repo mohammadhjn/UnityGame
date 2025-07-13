@@ -15,24 +15,24 @@ public class SettingManager : MonoBehaviour
     public void OpenSettings()
     {
         isPaused = true;
-        Time.timeScale = 0f; // متوقف کردن بازی
+        Time.timeScale = 0f; 
         settingsPanel.SetActive(true);
     }
 
     public void CloseSettings()
     {
         isPaused = false;
-        Time.timeScale = 1f; // ادامه بازی
+        Time.timeScale = 1f; 
         settingsPanel.SetActive(false);
     }
 
     public void GoToMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0); // منوی اصلی
+        SceneManager.LoadScene(0);
     }
 
-    // این تابع اختیاریه برای بستن با دکمه ESC
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

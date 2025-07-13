@@ -38,12 +38,10 @@
   <ItemGroup>
      <Compile Include="Assets\script\deletingperacci.cs" />
      <Compile Include="Assets\script\SettingManager.cs" />
-     <Compile Include="Assets\script\MenuManager.cs" />
      <Compile Include="Assets\script\soundofwater.cs" />
      <Compile Include="Assets\script\UNUSED scripts\NewBehaviourScript.cs" />
      <Compile Include="Assets\script\AudioVolumeController.cs" />
      <Compile Include="Assets\script\ThemeManager.cs" />
-     <Compile Include="Assets\script\Powerup_SlowMotion.cs" />
      <Compile Include="Assets\script\GlobalAudioManager.cs" />
      <Compile Include="Assets\script\SceneLoader.cs" />
      <Compile Include="Assets\script\MuteButtonController.cs" />
@@ -61,6 +59,10 @@
      <Compile Include="Assets\script\LevelLoader.cs" />
      <Compile Include="Assets\script\BackgroundMusicManager.cs" />
      <Compile Include="Assets\script\randomdrop.cs" />
+     <Compile Include="Assets\script\SplashScreen.cs" />
+     <Compile Include="Assets\script\UNUSED scripts\Powerup_SlowMotion.cs" />
+     <Compile Include="Assets\script\DoubleScorePowerup.cs" />
+     <Compile Include="Assets\script\UNUSED scripts\MenuManager.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity 2022.1.24f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

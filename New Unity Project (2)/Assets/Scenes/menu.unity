@@ -130,7 +130,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 8064609841748253779}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &20947097
+--- !u!114 &20947099
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,24 +139,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 20947093}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c85a63beb9e9ebb47be04663b76934ea, type: 3}
+  m_Script: {fileID: 11500000, guid: da636aceb1e5b06489c4c9d0ea2b412d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeSlider: {fileID: 7492903269259766862}
---- !u!114 &20947098
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 20947093}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 399cf979eb353cb4d84e5a3ac328595d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  muteButton: {fileID: 7492903271153845786}
-  muteButtonText: {fileID: 7492903271071625270}
 --- !u!1 &38908448
 GameObject:
   m_ObjectHideFlags: 0
@@ -1886,6 +1871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7492903269259766857}
   - component: {fileID: 7492903269259766862}
+  - component: {fileID: 7492903269259766864}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1893,6 +1879,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7492903269259766864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7492903269259766863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c85a63beb9e9ebb47be04663b76934ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 7492903269259766862}
 --- !u!114 &7492903269314594808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3098,7 +3097,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7492903271071625270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3222,13 +3221,14 @@ GameObject:
   - component: {fileID: 7492903271153845780}
   - component: {fileID: 7492903271153845781}
   - component: {fileID: 7492903271153845786}
+  - component: {fileID: 7492903271153845788}
   m_Layer: 5
   m_Name: mute Button (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &7492903271153845786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3273,7 +3273,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7492903271153845788}
         m_TargetAssemblyTypeName: GlobalAudioManager, Assembly-CSharp
         m_MethodName: ToggleMute
         m_Mode: 1
@@ -3306,6 +3306,20 @@ RectTransform:
   m_AnchoredPosition: {x: -110, y: -30}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7492903271153845788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7492903271153845784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 399cf979eb353cb4d84e5a3ac328595d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  muteButton: {fileID: 7492903271153845786}
+  muteButtonText: {fileID: 7492903271071625270}
 --- !u!114 &7492903271162855376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3473,7 +3487,7 @@ PrefabInstance:
     - target: {fileID: 8064609842288774201, guid: 9c3608821c561894ebd4dfcb0c5e92c1,
         type: 3}
       propertyPath: m_Name
-      value: BackgroundMusic
+      value: MusicManager
       objectReference: {fileID: 0}
     - target: {fileID: 8064609842288774207, guid: 9c3608821c561894ebd4dfcb0c5e92c1,
         type: 3}
@@ -3530,6 +3544,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8064609842288774206, guid: 9c3608821c561894ebd4dfcb0c5e92c1, type: 3}
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c3608821c561894ebd4dfcb0c5e92c1, type: 3}

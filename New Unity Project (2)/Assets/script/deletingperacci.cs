@@ -4,21 +4,23 @@ using UnityEngine;
 
 public class deletingperacci : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
     public AudioClip zaminaudio;
     public AudioClip satleaudio;
     public static int score;
+
+    public static bool isDoubleScoreActive = false; 
 
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.tag == "satle")
         {
             soundmanager.Instance.PlaySound(satleaudio);
-            score++;
+
+            if (isDoubleScoreActive)
+                score += 2;
+            else
+                score += 1;
+
             Destroy(gameObject);
         }
         else if (other.gameObject.tag == "zamin")
@@ -28,10 +30,4 @@ public class deletingperacci : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    void Update()
-    {
-        
-    }
 }
-
