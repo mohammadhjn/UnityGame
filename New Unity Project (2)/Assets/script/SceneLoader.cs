@@ -23,5 +23,9 @@ public class SceneLoader : MonoBehaviour
     {
         Application.OpenURL("https://cafebazaar.ir"); // لینک گیتهاب خودت رو جایگزین کن
     }
-    
+    public void QuitGame()
+    {
+        Debug.Log("Quit Game");
+        Application.Quit();
+    }
 }
