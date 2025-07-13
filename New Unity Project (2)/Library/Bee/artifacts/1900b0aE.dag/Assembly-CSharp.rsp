@@ -36,7 +36,6 @@
 -define:USE_PROPERTY_DATABASE
 -define:USE_QUERY_BUILDER
 -define:USE_SEARCH_EXTENSION_API
--define:UNITY_ANALYTICS
 -define:SCENE_TEMPLATE_MODULE
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
@@ -367,27 +366,30 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/script/AudioToggle.cs"
-"Assets/script/button.cs"
-"Assets/script/DelayTime.cs"
-"Assets/script/deleting.cs"
+"Assets/script/AudioVolumeController.cs"
+"Assets/script/BackgroundMusic.cs"
+"Assets/script/BackgroundMusicManager.cs"
 "Assets/script/deletingperacci.cs"
+"Assets/script/GlobalAudioManager.cs"
 "Assets/script/LevelLoader.cs"
 "Assets/script/manager.cs"
 "Assets/script/MenuManager.cs"
-"Assets/script/NewBehaviourScript.cs"
-"Assets/script/NewBehaviourScript1.cs"
+"Assets/script/MuteButtonController.cs"
 "Assets/script/nonverticalmove.cs"
 "Assets/script/Powerup_SlowMotion.cs"
 "Assets/script/randomdrop.cs"
-"Assets/script/recreate.cs"
 "Assets/script/SceneLoader.cs"
 "Assets/script/SettingManager.cs"
 "Assets/script/soundmanager.cs"
 "Assets/script/soundofwater.cs"
-"Assets/script/text.cs"
 "Assets/script/ThemeManager.cs"
-"Assets/script/VolumeSettings..cs"
+"Assets/script/UNUSED scripts/button.cs"
+"Assets/script/UNUSED scripts/DelayTime.cs"
+"Assets/script/UNUSED scripts/deleting.cs"
+"Assets/script/UNUSED scripts/NewBehaviourScript.cs"
+"Assets/script/UNUSED scripts/NewBehaviourScript1.cs"
+"Assets/script/UNUSED scripts/recreate.cs"
+"Assets/script/UNUSED scripts/text.cs"
 "Assets/script/WinManager.cs"
 -langversion:9.0
 
