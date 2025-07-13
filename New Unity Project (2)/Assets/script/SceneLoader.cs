@@ -15,5 +15,13 @@ public class SceneLoader : MonoBehaviour
         deletingperacci.score = 0;
         SceneManager.LoadScene(sceneName);
     }
-
+    public void OpenGithub()
+    {
+        Application.OpenURL("https://github.com/amiramiriani"); // لینک گیتهاب خودت رو جایگزین کن
+    }
+    public void OpenBazaar()
+    {
+        Application.OpenURL("https://cafebazaar.ir"); // لینک گیتهاب خودت رو جایگزین کن
+    }
+    
 }
