@@ -2,7 +2,7 @@
 
 public class soundmanager : MonoBehaviour
 {
-    // Static instance for global access
+    
     public static soundmanager Instance { get; private set; }
 
     [SerializeField] private AudioSource sfxSource;
@@ -19,7 +19,7 @@ public class soundmanager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        // Ensure AudioSource exists
+
         if (sfxSource == null)
         {
             sfxSource = gameObject.AddComponent<AudioSource>();

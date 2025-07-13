@@ -64,7 +64,7 @@ public class WinManager : MonoBehaviour
 
             deletingperacci.score = 0;
             Time.timeScale = 1f;
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene(3);
         }
         else
         {
@@ -78,7 +78,7 @@ public class WinManager : MonoBehaviour
     {
         deletingperacci.score = 0;
         Time.timeScale = 1f;
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(3);
     }
 
     public void OnMainMenu()

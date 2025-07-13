@@ -16,16 +16,15 @@ public class SplashScreen : MonoBehaviour
 
     IEnumerator FadeAndLoad()
     {
-        // Fade In
+
         yield return StartCoroutine(Fade(0f, 1f));
         
-        // مکث بعد از نمایش لوگو
+
         yield return new WaitForSeconds(waitTime);
 
-        // Fade Out
+
         yield return StartCoroutine(Fade(1f, 0f));
 
-        // رفتن به صحنه بعد
         string nextScene = PlayerPrefs.GetString("NextScene", defaultNextScene);
         SceneManager.LoadScene(nextScene);
     }
