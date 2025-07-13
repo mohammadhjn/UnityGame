@@ -4,50 +4,87 @@ using UnityEngine.SceneManagement;
 
 public class WinManager : MonoBehaviour
 {
-    public GameObject winPanel;    // پنل UI که شامل دکمه‌هاست
-    public Text winText;           // متن "You Win!"
+    public GameObject winPanel;
+    public Text winText;
+    public Text targetScoreText;
+    public GameObject nextLevelButton;
+
+    private int targetScore = 100;
     private bool gameWon = false;
 
     void Start()
     {
-        winPanel.SetActive(false); // در ابتدای بازی پنل مخفی باشه
-        Time.timeScale = 1f;       // اطمینان از اینکه بازی در حالت اجراست
+        winPanel.SetActive(false);
+        Time.timeScale = 1f;
+
+        if (PlayerPrefs.HasKey("TargetScore"))
+            targetScore = PlayerPrefs.GetInt("TargetScore");
+        else
+            targetScore = 100;
+
+        if (targetScoreText != null)
+            targetScoreText.text = "Target: " + targetScore.ToString();
+
+        Debug.Log("Target Score is: " + targetScore);
     }
 
     void Update()
     {
-        if (deletingperacci.score >= 10 && !gameWon)
+        if (deletingperacci.score >= targetScore && !gameWon)
         {
             gameWon = true;
             ShowWinScreen();
         }
-
     }
 
     void ShowWinScreen()
     {
-        winPanel.SetActive(true);       // پنل رو فعال کن
-        winText.text = "You Win!";      // متن برنده شدن
-        Time.timeScale = 0f;            // بازی رو متوقف کن
-    }
+        winPanel.SetActive(true);
+        winText.text = "You Win!";
+        Time.timeScale = 0f;
 
-    // دکمه‌ها این توابع رو صدا بزنن:
+        int currentLevel = PlayerPrefs.GetInt("Level", 1);
+        if (nextLevelButton != null)
+        {
+            nextLevelButton.SetActive(currentLevel < 5);
+        }
+    }
 
     public void OnNextLevel()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        int currentLevel = PlayerPrefs.GetInt("Level", 1);
+
+        if (currentLevel < 5)
+        {
+            int nextLevel = currentLevel + 1;
+            int nextTargetScore = 20 * nextLevel;
+
+            PlayerPrefs.SetInt("Level", nextLevel);
+            PlayerPrefs.SetInt("TargetScore", nextTargetScore);
+
+            deletingperacci.score = 0;
+            Time.timeScale = 1f;
+            SceneManager.LoadScene(2);
+        }
+        else
+        {
+            deletingperacci.score = 0;
+            Time.timeScale = 1f;
+            nextLevelButton.SetActive(false);
+        }
     }
 
     public void OnRetry()
     {
+        deletingperacci.score = 0;
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(2);
     }
 
     public void OnMainMenu()
     {
+        deletingperacci.score = 0;
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu"); // اطمینان حاصل کن صحنه منو وجود داره
+        SceneManager.LoadScene(0);
     }
 }
