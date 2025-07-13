@@ -36,6 +36,7 @@
 -define:USE_PROPERTY_DATABASE
 -define:USE_QUERY_BUILDER
 -define:USE_SEARCH_EXTENSION_API
+-define:UNITY_ANALYTICS
 -define:SCENE_TEMPLATE_MODULE
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
@@ -371,6 +372,7 @@
 "Assets/script/DelayTime.cs"
 "Assets/script/deleting.cs"
 "Assets/script/deletingperacci.cs"
+"Assets/script/LevelLoader.cs"
 "Assets/script/manager.cs"
 "Assets/script/MenuManager.cs"
 "Assets/script/NewBehaviourScript.cs"
@@ -380,6 +382,7 @@
 "Assets/script/randomdrop.cs"
 "Assets/script/recreate.cs"
 "Assets/script/SceneLoader.cs"
+"Assets/script/SettingManager.cs"
 "Assets/script/soundmanager.cs"
 "Assets/script/soundofwater.cs"
 "Assets/script/text.cs"
