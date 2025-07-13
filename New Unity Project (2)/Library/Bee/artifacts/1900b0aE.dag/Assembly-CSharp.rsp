@@ -36,7 +36,6 @@
 -define:USE_PROPERTY_DATABASE
 -define:USE_QUERY_BUILDER
 -define:USE_SEARCH_EXTENSION_API
--define:UNITY_ANALYTICS
 -define:SCENE_TEMPLATE_MODULE
 -define:ENABLE_AR
 -define:ENABLE_AUDIO
@@ -367,9 +366,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.SpatialTracking.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
-"Assets/DelayTime.cs"
 "Assets/script/AudioToggle.cs"
 "Assets/script/button.cs"
+"Assets/script/DelayTime.cs"
 "Assets/script/deleting.cs"
 "Assets/script/deletingperacci.cs"
 "Assets/script/manager.cs"
@@ -386,6 +385,7 @@
 "Assets/script/text.cs"
 "Assets/script/ThemeManager.cs"
 "Assets/script/VolumeSettings..cs"
+"Assets/script/WinManager.cs"
 -langversion:9.0
 
 /deterministic
